@@ -31,3 +31,9 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer components {
+  .alert-success {
+    @apply bg-green-500 text-white;
+  }
+}
